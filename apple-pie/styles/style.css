@@ -1,13 +1,17 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     line-height: 1.4em;
 }
 
-body, h1, h2 {
+body,
+h1,
+h2 {
     font-family: "Arial";
     font-weight: 100;
 }
+
 p {
     font-size: 1.5em;
 }
@@ -18,16 +22,18 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     height: 950px;
-     position: relative;
-     display: flex;
-     justify-content: center;
-     align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
 .header h1 {
     color: white;
     font-size: 6em;
-    
-   
+
+
 }
 
 #first-section p {
@@ -37,7 +43,7 @@ p {
     margin-right: 20%;
     text-align: justify;
     line-height: 1.2em;
-    
+
 }
 
 .details {
@@ -50,25 +56,30 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    
+
 }
+
 ul {
     list-style-type: none;
     line-height: 1.5em;
-    
-  }
-  ul li:before {
+
+}
+
+ul li:before {
     content: '\2014';
-    
+
     margin-left: -21px;
-  }
-  .istructions ul, h2 {
+}
+
+.istructions ul,
+h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .centered {
-        margin-top: 50px;  
-        margin-left: 20%;
-        margin-right: 20%;
-  }
+}
+
+.centered {
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
